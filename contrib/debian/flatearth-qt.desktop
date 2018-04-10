@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=FlatEarth
+Comment=FlatEarth P2P Cryptocurrency
+Comment[fr]=FlatEarth, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=FlatEarth, eşten eşe kriptografik sanal para birimi
+Exec=flatearth-qt %u
+Terminal=false
+Type=Application
+Icon=flatearth128
+MimeType=x-scheme-handler/flatearth;
+Categories=Office;Finance;

@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/flatearth_bg.qm</file>
+        <file alias="de">locale/flatearth_de.qm</file>
+        <file alias="en">locale/flatearth_en.qm</file>
+        <file alias="es">locale/flatearth_es.qm</file>
+        <file alias="fi">locale/flatearth_fi.qm</file>
+        <file alias="fr">locale/flatearth_fr.qm</file>
+        <file alias="it">locale/flatearth_it.qm</file>
+        <file alias="ja">locale/flatearth_ja.qm</file>
+        <file alias="pl">locale/flatearth_pl.qm</file>
+        <file alias="pt">locale/flatearth_pt.qm</file>
+        <file alias="ru">locale/flatearth_ru.qm</file>
+        <file alias="sk">locale/flatearth_sk.qm</file>
+        <file alias="sv">locale/flatearth_sv.qm</file>
+        <file alias="vi">locale/flatearth_vi.qm</file>
+        <file alias="zh_CN">locale/flatearth_zh_CN.qm</file>
+        <file alias="zh_TW">locale/flatearth_zh_TW.qm</file>
+    </qresource>
+</RCC>

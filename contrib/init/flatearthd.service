@@ -1,0 +1,22 @@
+[Unit]
+Description=FlatEarth's distributed currency daemon
+After=network.target
+
+[Service]
+User=flatearthcore
+Group=flatearthcore
+
+Type=forking
+PIDFile=/var/lib/flatearthd/flatearthd.pid
+ExecStart=/usr/bin/flatearthd -daemon -pid=/var/lib/flatearthd/flatearthd.pid \
+-conf=/etc/flatearthcore/flatearth.conf -datadir=/var/lib/flatearthd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
